@@ -30,7 +30,7 @@ $(document).keydown(function(event) {
 <link href="<?php echo base_url()?>statics/css/base.css" rel="stylesheet" type="text/css">
 <link href="<?php echo base_url()?>statics/css/<?php echo sys_skin()?>/default.css?ver=20150522" rel="stylesheet" type="text/css" id="defaultFile">
 <script src="<?php echo skin_url()?>/js/common/tabs.js?ver=20150522"></script>
-<!-- author：93138905 -->
+<!-- author：532388887 -->
 
 
 <script>
@@ -545,10 +545,10 @@ var _hmt = _hmt || [];
       <ul class="user-menu">
       	<!--<li class="qq"><a href="" target="_blank" id="mobile" title="手机版">手机版</a></li>
       	<li class="space">|</li>-->
-      	<li class="qq"><a href="" onClick="return false;" id="wpa">QQ咨询：93138905</a></li>
+      	<li class="qq"><a href="" onClick="return false;" id="wpa">QQ咨询：532388887</a></li>
       	<li class="space">|</li>
         
-      	<li class="telphone">电话：17701030513</li>
+      	<li class="telphone">电话：13954386521</li>
         <li class="space">|</li>
       	<li><a href="http://www.istheme.com/i/253" target="_blank" class="buy-now">购买</a></li>
         <li class="space">|</li>

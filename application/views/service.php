@@ -130,7 +130,7 @@ $(document).keydown(function(event) {
     			<li class="weixin">
     				<div class="inner">
     					<i></i>
-	    				<p class="tit">售后热线：17701030513</p>
+	    				<p class="tit">售后热线：13954386521</p>
 	    				<p>通过热线&远程协控，为您提供产品应用和操作问题咨询、疑难业务指导和故障诊断等服务。</p>
 	    				<p class="tit">服务响应：</p>
 	    				<p>工作日（周一至周五）</p>
@@ -143,7 +143,7 @@ $(document).keydown(function(event) {
     			<li class="qq-club">
     				<div class="inner">
     					<i></i>
-	    				<p class="tit">售后服务QQ：<a  title="在线QQ客服" id="wpa_shouhou" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=93138905&site=qq&menu=yes">93138905</a></p
+	    				<p class="tit">售后服务QQ：<a  title="在线QQ客服" id="wpa_shouhou" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=532388887&site=qq&menu=yes">532388887</a></p
 >
 	    				<p>您只需登录QQ即可在线沟通，通过文字应答&远程协控，为您提供产品应用操作问题指导和咨询服务。</p>
                         <p class="tit">服务响应：</p>
@@ -157,7 +157,7 @@ $(document).keydown(function(event) {
     			<li class="email">
     				<div class="inner">
     					<i></i>
-	    				<p class="tit">客服邮箱：<a href="mailto:93138905@qq.com">93138905@qq.com</a></p>
+	    				<p class="tit">客服邮箱：<a href="mailto:532388887@qq.com">532388887@qq.com</a></p>
                         <p>通过邮件提交您的事务性申请，如：密码修改申请、友盾挂失申请、补寄发票申请、产品升级申请等服务。</p>
                         <p class="tit">服务响应：</p>
                         <p>工作日24小时处理完毕</p>

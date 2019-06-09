@@ -20,7 +20,7 @@ function addUrlParam() {
 }
 function BBSPop() {
 	var a = $("#yswb-tab"),
-		b = ['<ul id="yswbPop">', '<li class="yswbPop-title">请选择您要进入的论坛</li>', '<li><strong>产品服务论坛</strong><p>在线会计，在线进销存操作问题咨询</p><a href="http://wpa.qq.com/msgrd?V=3&uin=93138905&Site=青城&Menu=yes" target="_blank">进入论坛>></a></li>', '<li><strong>会计交流论坛</strong><p>会计实操，会计学习，会计资讯</p><a href="http://wpa.qq.com/msgrd?V=3&uin=93138905&Site=青城&Menu=yes" target="_blank">进入论坛>></a></li>', "</ul>"].join("");
+		b = ['<ul id="yswbPop">', '<li class="yswbPop-title">请选择您要进入的论坛</li>', '<li><strong>产品服务论坛</strong><p>在线会计，在线进销存操作问题咨询</p><a href="http://wpa.qq.com/msgrd?V=3&uin=532388887&Site=青城&Menu=yes" target="_blank">进入论坛>></a></li>', '<li><strong>会计交流论坛</strong><p>会计实操，会计学习，会计资讯</p><a href="http://wpa.qq.com/msgrd?V=3&uin=532388887&Site=青城&Menu=yes" target="_blank">进入论坛>></a></li>', "</ul>"].join("");
 	a.find("a").click(function(a) {
 		a.preventDefault();
 		var c = $.cookie("yswbPop_scm");
@@ -747,8 +747,8 @@ $("#nav").on("click", "[rel=pageTab]", function(a) {
 }), function(a) {
 	if (2 === SYSTEM.siVersion && SYSTEM.isOpen) {
 		var b, c = location.protocol + "//" + location.host + "/update_info.jsp",
-			d = '您的单据分录已经录入达到300条，继续使用选择<a href="http://wpa.qq.com/msgrd?V=3&uin=93138905&Site=青城&Menu=yes" target="_blank">购买产品</a>或者完善个人信息赠送1000条免费容量。';
-		SYSTEM.isshortUser ? SYSTEM.isshortUser && (b = "http://wpa.qq.com/msgrd?V=3&uin=93138905&Site=青城&Menu=yes&updateUrl=" + encodeURIComponent(c) + "&warning=" + encodeURIComponent(d) + "&loginPage=http://wpa.qq.com/msgrd?V=3&uin=93138905&Site=青城&Menu=yes&", a.dialog({
+			d = '您的单据分录已经录入达到300条，继续使用选择<a href="http://wpa.qq.com/msgrd?V=3&uin=532388887&Site=青城&Menu=yes" target="_blank">购买产品</a>或者完善个人信息赠送1000条免费容量。';
+		SYSTEM.isshortUser ? SYSTEM.isshortUser && (b = "http://wpa.qq.com/msgrd?V=3&uin=532388887&Site=青城&Menu=yes&updateUrl=" + encodeURIComponent(c) + "&warning=" + encodeURIComponent(d) + "&loginPage=http://wpa.qq.com/msgrd?V=3&uin=532388887&Site=青城&Menu=yes&", a.dialog({
 			min: !1,
 			max: !1,
 			cancle: !1,
@@ -757,7 +757,7 @@ $("#nav").on("click", "[rel=pageTab]", function(a) {
 			height: 490,
 			title: "完善个人信息",
 			content: "url:" + b
-		})) : (b = "http://wpa.qq.com/msgrd?V=3&uin=93138905&Site=青城&Menu=yes&updateUrl=" + encodeURIComponent(c) + "&warning=" + encodeURIComponent(d), a.dialog({
+		})) : (b = "http://wpa.qq.com/msgrd?V=3&uin=532388887&Site=青城&Menu=yes&updateUrl=" + encodeURIComponent(c) + "&warning=" + encodeURIComponent(d), a.dialog({
 			min: !1,
 			max: !1,
 			cancle: !1,
@@ -870,7 +870,7 @@ $("#nav").on("click", "[rel=pageTab]", function(a) {
 			name: "立即续费",
 			focus: !0,
 			callback: function() {
-				window.open("http://wpa.qq.com/msgrd?V=3&uin=93138905&Site=青城&Menu=yes&zh-CHS&accIds=" + SYSTEM.DBID)
+				window.open("http://wpa.qq.com/msgrd?V=3&uin=532388887&Site=青城&Menu=yes&zh-CHS&accIds=" + SYSTEM.DBID)
 			}
 		}, {
 			name: "下次再说"
