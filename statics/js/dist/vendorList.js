@@ -84,7 +84,7 @@ $(function() {
 				formatter: g.statusFmatter
 			}];
 		h.gridReg("grid", d), d = h.conf.grids.grid.colModel, $("#grid").jqGrid({
-			url: "../basedata/contact?type=-10&action=list&isDelete=2",
+			url: "../basedata/contact?type=10&action=list&isDelete=2",
 			datatype: "json",
 			autowidth: !0,
 			height: a.h,

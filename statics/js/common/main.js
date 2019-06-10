@@ -1119,7 +1119,7 @@ define(["jquery", "plugins", "grid", "dialog", "datepicker"], function(require, 
 				data: {oper: 'add', callback: function(data, oper, dialogWin){
 					//parent.getCustomer();
 					//_self.customerCombo.selectByValue(data.id, false);
-					supplierCombo.loadData('../basedata/contact?type=-10&action=list', ['id', data.id]);
+					supplierCombo.loadData('../basedata/contact?type=10&action=list', ['id', data.id]);
 					dialogWin && dialogWin.api.close();
 				}},
 				width : 640,
