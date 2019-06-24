@@ -398,7 +398,7 @@ function cancleGridEdit() {
 }
 function resetForm(a) {
 	var b = [{}, {}, {}, {}];
-	$("#name").val(""), $("#date").val(""), $("#receiveFunds").val(""), $("#note").val(""), $("#taxRate").val(""), $("#periodReceiveFunds").val(""), $("#taxRate").val("17"), $grid.jqGrid("clearGridData").jqGrid("setGridParam", {
+	$("#name").val(""), $("#date").val(""), $("#receiveFunds").val(""), $("#note").val(""), $("#taxRate").val(""), $("#periodReceiveFunds").val(""), $("#taxRate").val("13"), $grid.jqGrid("clearGridData").jqGrid("setGridParam", {
 		data: b
 	}).trigger("reloadGrid"), $("#number").val(Public.getSuggestNum(a.number)).focus().select()
 }
